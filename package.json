@@ -1,0 +1,22 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "Dự án nodeJS đầu tiên",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/dinhthien2504/back-end.git)"
+  },
+  "keywords": [
+    "nodeJS"
+  ],
+  "author": "Đình Thiên",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
