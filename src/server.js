@@ -9,10 +9,11 @@ const port = process.env.PORT || 8081;//port
 const localhost = process.env.LOCAL_HOST;//host
 
 //config template engine
-configViewEngine(app, express);
+configViewEngine(app);
 
 //Khai báo route
-app.use('/client', webRoutes)
+app.use('/', webRoutes)
+
 app.listen(port, localhost, () => {
     console.log(`Example app listening on port ${port}`);
 });
