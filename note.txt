@@ -1,0 +1,6 @@
+#install
+
+express
+dotenv
+ejs
+nodemon
